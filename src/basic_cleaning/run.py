@@ -15,7 +15,7 @@ logger = logging.getLogger()
 def go(args):
 
     logger.info("Start to perform basic cleaning with argument: %s", args)
-    run = wandb.init(project="nyc_airbnb", job_type="basic_cleaning")
+    run = wandb.init(job_type="basic_cleaning")
     run.config.update(args)
 
     # Download input artifact. This will also log that this script is using this
