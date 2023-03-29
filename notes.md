@@ -1,6 +1,9 @@
 # Notes
 This is my solution for the Udacity nanodegree school: Machine Learning DevOps Engineer.
 
+## Github Project
+https://github.com/alu82/build-ml-pipeline-for-short-term-rental-prices/
+
 ## Wandb Project
 I used weights and biases to track my experiments. Please find the corresponding project here: https://wandb.ai/alu82/nyc_airbnb
 
